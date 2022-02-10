@@ -38,7 +38,7 @@ if (!isset($_SESSION['uid'])) {
                         <?php
                         if ($result) {
                             $row = mysqli_num_rows($result);
-                            if ($row) { //echo "<b> Total ".$row." </b>";
+                            if ($row) {
                             } else echo '<b style="text-align:center;color:white;background-color:#e84545;padding:7px;">You have not requested yet. </b>';
                         }
                         ?>
@@ -55,7 +55,7 @@ if (!isset($_SESSION['uid'])) {
                                 <td><?php echo $row['status']; ?></td>
                                 <td><?php if ($row['status'] == 'Accepted') { ?>
                                     <?php } else { ?>
-                                        <!-- <a href="file/cancel.php?reqid=<//?php echo $row['reqid']; ?>" class="btn btn-danger">Cancel</a> -->
+                                        
                                         <a href="file/cancel.php?reqid=<?php echo $row['reqid']; ?>">
                                             <input type="submit" name="request" class="btn btn-info" value="Cancle">
                                         </a>

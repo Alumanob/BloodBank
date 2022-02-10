@@ -37,7 +37,7 @@ if (!isset($_SESSION['hid'])) {
                         <?php
                         if ($result) {
                             $row = mysqli_num_rows($result);
-                            if ($row) { //echo "<b> Total ".$row." </b>";
+                            if ($row) {
                             } else echo '<b style="color:white;background-color:red;padding:7px;">No one has requested yet. </b>';
                         }
                         ?>

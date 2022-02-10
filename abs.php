@@ -56,7 +56,7 @@ $result = mysqli_query($conn, $sql);
                         <?php
                         if ($result) {
                             $row =mysqli_num_rows( $result);
-                            if ($row) { //echo "<b> Total ".$row." </b>";
+                            if ($row) { 
                         }else echo '<b style="color:black; font-size: 25px; text-align:center;padding:10px;">Nothing to show.</b>';
                     }
                     ?>
