@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <!-- Main Part Start -->
+    
     <main>
-        <!-- 1st Part Start -->
+
         <section class="pt-5">
             <div class="carousel-inner pt-2">
                 <div class="carousel-item active">
@@ -32,9 +32,9 @@
                     </div>
                 </div>
         </section>
-        <!-- 1st Part End -->
 
-        <!-- 2nd Part Start -->
+
+
         <section class="mt-5">
             <div class="text-center">
                 <h1>We Saves Lives</h1>
@@ -67,9 +67,9 @@
                 </div>
             </div>
         </section>
-        <!-- 2nd Part End -->
 
-        <!-- 3rd Part Start -->
+
+
         <section>
 
             <div class="text-center mt-5">
@@ -175,9 +175,9 @@
                 </div>
             </section>
         </section>
-        <!-- 3rd Part End -->
 
-        <!-- 4th Part Start -->
+
+
         <section>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -195,11 +195,11 @@
                     </div>
                 </div>
         </section>
-        <!-- 4th Part End -->
-    </main>
-    <!-- Main End -->
 
-    <!-- Bootstrap js-->
+    </main>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
